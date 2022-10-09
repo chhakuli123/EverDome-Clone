@@ -1,0 +1,208 @@
+/* -------------navbar------------ */
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+video {
+    object-fit: fill;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+/* sction1 */
+
+.meta {
+    background: #00031B;
+}
+
+.right-side {
+    position: relative;
+    bottom: 20rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.img-logo {
+    display: flex;
+    gap: 80px;
+}
+
+.dragon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.main {
+    justify-content: center;
+    text-align: center;
+    width: 777px;
+    margin-left: 25rem;
+}
+
+.heading {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.metaverce {
+    background: -webkit-linear-gradient(rgb(99, 38, 151), rgb(238, 45, 187));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.para {
+    color: gainsboro;
+    text-align: center;
+    /* width: 633px; */
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
+}
+
+.btn1 {
+    background: transparent;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #EE4492;
+    border-color: #EE4492;
+    width: 15rem;
+}
+
+.btn2 {
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+}
+
+
+/*------------- section2---------------- */
+.dom-section {
+    display: flex;
+}
+
+.left {
+    color: #fff;
+    width: 633px;
+    margin: 4rem;
+
+
+}
+
+.dom-heading {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.dom {
+    color: #EE4492;
+}
+
+.sphere {
+    position: relative;
+    top: 15rem;
+}
+
+.right {
+    position: relative;
+    bottom: 15rem;
+}
+
+/* ------card---------- */
+/* .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin: 3rem;
+    position: relative;
+    bottom: 50rem;
+}
+
+.card-logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+.card {
+    padding: 1rem 1.5rem;
+    background-color: #191A44;
+    border-radius: 1rem;
+}
+
+.card-head {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.card-body {
+    font-size: .8rem;
+    align-items: flex-start;
+
+    color: #CACBD3;
+} */
